@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-result]').forEach(button => { button.addEventListener('click', () => { button.closest('.exercise').querySelector('.feedback').textContent = button.dataset.result; }); });

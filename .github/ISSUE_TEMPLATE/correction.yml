@@ -1,0 +1,11 @@
+name: Factual correction
+description: Flag a public claim with a current source. Do not share private data.
+title: "Correction: "
+body:
+  - type: textarea
+    id: correction
+    attributes:
+      label: Page, claim, and source
+      description: Give the public page URL, exact claim, and a primary source. No private chats, client details, or access keys.
+    validations:
+      required: true
