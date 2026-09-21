@@ -27,6 +27,9 @@ class Page(HTMLParser):
         if tag == 'title': self.in_title = True
         if tag in ('a', 'link') and a.get('href'): self.links.append(a['href'])
         if tag == 'script' and a.get('src'): self.links.append(a['src'])
+        if tag == 'img':
+            assert a.get('alt') and a.get('width') and a.get('height'), 'Image needs alt and dimensions'
+            self.links.append(a['src'])
         if tag == 'link' and a.get('rel') == 'canonical': self.canonicals.append(a['href'])
         if tag == 'meta': self.metas[a.get('name', a.get('property'))] = a.get('content')
         if tag == 'script' and a.get('type') == 'application/ld+json': self.in_schema = True

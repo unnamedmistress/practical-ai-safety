@@ -1,10 +1,16 @@
 # Practical AI Safety
 
+![A workbench for checking AI answers, access, and task evidence](docs/assets/assistant-checks.png)
+
+AI-generated illustration.
+
 Build a personal AI assistant you can check. Use this free guide to check answers and review memory. Set limits on tool access. Check that a task happened.
 
 ## Read the guide
 
 Open the [Practical AI Safety guide](https://unnamedmistress.github.io/practical-ai-safety/) to read without a GitHub account. The examples use fictional data. The guide does not inspect your assistant, enforce permissions, or promise error-free AI.
+
+The guide includes a manual carousel with four illustrated checks. [Open the interactive guide](https://unnamedmistress.github.io/practical-ai-safety/). GitHub displays this README as a static page.
 
 ## Practice with one task
 
