@@ -1,6 +1,6 @@
 # Practical AI Safety
 
-![A workbench for checking AI answers, access, and task evidence](docs/assets/assistant-checks.png)
+![A workbench for checking AI answers, access, and task evidence](docs/assets/assistant-checks-brand.png)
 
 AI-generated illustration.
 
